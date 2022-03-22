@@ -1,0 +1,70 @@
+
+body{
+    background-color:grey;
+}
+
+
+
+.container1 {
+    min-height: 72vh;
+   /* background-color: black;*/
+    color: white;
+   font-family: 'Varela Round', sans-serif;
+   display: flex;
+   margin: 16px auto;
+   width: 70%;
+   border-radius: 12px;
+   padding: 34px;
+  
+   background-image: url('img/background.jpg');
+   background-size: 160vh ;
+   display: flex;
+  
+}
+
+.song {
+    height: 50px;
+    display: flex;
+    margin: 12px 0 ;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.song img{
+    width: 40px;
+    height:40px;
+    margin: 4px 4px;
+}
+.songName{
+    margin-right: 8px;
+    padding: 4px;
+}
+
+.timestamp i {
+    margin-right: 8px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.bottom{
+   
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#rangeid{
+  position: static;
+    width: 80vw; 
+    cursor: pointer;
+}
+
+.icon i{
+    
+   
+
+  cursor: pointer;
+  align-items: center;
+}
